@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:  #fff;
+   
+    color: #8f8a8a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Style pour la page de connexion*/
+.logo{
+    width: 80%;
+}
+.lim{
+    color: #1898A8;
+    font-size: 15px;
+   
+}
+form input{
+    width: 320px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid 
+   
+}
+p span{
+   color: #79B51C; 
+   font-size: 15px;
+   
+}
+form input:hover{
+  border: 2px solid #79B51C;  
+}
+form button{
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 2%;
+    color: white;
+    background-color: #1A98A8;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #fff;
+    color: #3697ab;
+    border: 2px solid #3697ab;
+}
+form span a{
+   
+    color: #807e7e;
+}
+@media screen and (max-width:1440px) {
+    form span a{
+        margin-right: 15%;
+       
+    }
+}
+@media all and (min-width:768px) and (max-width:900px) {
+    body{
+        font-size: 14px;
+    }
+    form span a{
+        margin-right: 28%;
+       
+    }
+}
+@media all and (min-width:375px) and (max-width:500px) {
+    body{
+        font-size: 12px;
+    }
+    form span a{
+        margin-right: 60%;
+       
+    }
+}
